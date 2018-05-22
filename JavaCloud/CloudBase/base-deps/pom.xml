@@ -120,6 +120,16 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+			    <groupId>io.springfox</groupId>
+			    <artifactId>springfox-swagger2</artifactId>
+			    <version>2.8.0</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.springfox</groupId>
+			    <artifactId>springfox-swagger-ui</artifactId>
+			    <version>2.8.0</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<build>
@@ -196,6 +206,11 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+	    <repository>
+	      <id>jcenter-snapshots</id>
+	      <name>jcenter</name>
+	      <url>https://jcenter.bintray.com/</url>
+	    </repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
