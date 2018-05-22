@@ -1,0 +1,1 @@
+:\MyProj0\MicroService\JavaCloud\EurekaServer>java -jar target\eurekaserver-1.0.0-SNAPSHOT.jar
